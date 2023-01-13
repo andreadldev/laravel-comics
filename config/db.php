@@ -1,6 +1,9 @@
 <?php
 
-return [
+return [    
+    $menuItems=[
+    'Characters', 'Comics', 'Movies', 'TV', 'Games', 'Collectibles', 'Videos', 'Fans', 'News', 'Shop'
+    ],
     $comicsList=
     [
         "title" => "Action Comics #1000: The Deluxe Edition",
@@ -213,8 +216,5 @@ return [
             "Joëlle Jones"
         ],
     ],
-    $menuItems=[
-        'Characters', 'Comics', 'Movies', 'TV', 'Games', 'Collectibles', 'Videos', 'Fans', 'News', 'Shop'
-    ]
 ];
 
