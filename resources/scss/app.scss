@@ -1,1 +1,13 @@
-@import '~bootstrap/scss/bootstrap'
+@import '~bootstrap/scss/bootstrap';
+@import '__header';
+
+* {
+    font-family: "Open Sans", sans-serif;
+}
+
+:root {
+    --custom-blue: #0282f9;
+    --custom-gray: #464646;
+    --custom-darkgray: #303030;
+    --custom-black: #1c1c1c;
+  }
