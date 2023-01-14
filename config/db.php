@@ -1,8 +1,25 @@
 <?php
-
 return [    
-    $menuItems=[
+    $navItems=[
     'Characters', 'Comics', 'Movies', 'TV', 'Games', 'Collectibles', 'Videos', 'Fans', 'News', 'Shop'
+    ],
+    $footerItems=[
+        [
+            'title' => 'DC COMICS',
+            'links' => ['Characters', 'Comics', 'Movies', 'TV', 'Games', 'Videos', 'News']
+        ],
+        [
+            'title' => 'SHOP',
+            'links' => ['Shop DC', 'Shop DC Collectibles']
+        ],
+        [
+            'title' => 'DC',
+            'links' => ['Terms Of Use', 'Privacy Policy', 'Ad Choices', 'Advertising', 'Jobs', 'Subscriptions', 'Talent Workshops', 'CPSC Certificates', 'Ratings', 'Shop Help', 'Contact us']
+        ],
+        [
+            'title' => 'SITES',
+            'links' => ['DC', 'MAD Magazine', 'DC Kids', 'DC Universe', 'DC Power Visa']
+        ]
     ],
     $comicsList=
     [

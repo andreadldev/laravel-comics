@@ -15,8 +15,6 @@ a {
 
 .active {
     color: var(--custom-blue);
-    display: flex;
-    justify-content: center;
     &:before {
         content: "";
         display: none;
