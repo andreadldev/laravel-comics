@@ -10,7 +10,6 @@ img {
 a {
     text-decoration: none;
     color: inherit;
-    padding: 0 0.3125rem;
 }
 
 .active {
@@ -30,4 +29,13 @@ a {
             }
         }
     }
+}
+
+.jumbotron {
+    background-image: url("../img/jumbotron.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 0;
+    height: 24rem;
+    width: 100%;
 }

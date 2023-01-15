@@ -1,3 +1,31 @@
+// ============================PRE-FOOTER============================
+section#pre-footer {
+    background-color: var(--custom-blue);
+    .container {
+        @media screen and ( min-width: 992px ) {
+            & {
+                width: 100%  !important;
+            }
+        }
+    }
+    img {
+        width: 3.125rem;
+        height: 3.75rem;
+        
+    }
+
+    .wrapper {
+        position: relative;
+        right: 60%;
+        @media screen and ( min-width: 576px ) {
+            & {
+                right: 0 !important;
+            }
+        }
+    }
+}
+
+// ==============================FOOTER==============================
 footer {
     font-weight: 400;
     a {

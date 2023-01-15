@@ -26,7 +26,7 @@
 
             </div>
             <div class="d-flex justify-content-center align-items-center position-relative w-100">
-                <img id="logo" class="position-absolute user-select-none pe-none" src="{{ Vite::asset('resources/img/dc-logo-bg.png') }}" alt="..." />
+                <img id="logo" class="position-absolute user-select-none pe-none" src="{{ Vite::asset('public/img/dc-logo-bg.png') }}" alt="..." />
             </div>
         </div>
     </section>

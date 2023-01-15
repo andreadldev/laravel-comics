@@ -14,9 +14,11 @@ include(base_path('config/db.php'));
 </head>
 <body class="vh-100">
     @include('partials.header')
+    @include('partials.jumbotron')
 
     @yield('page-main')
 
+    @include('partials.pre-footer')
     @include('partials.footer')
 </body>
 </html>

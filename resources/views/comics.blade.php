@@ -6,6 +6,8 @@ Comics
 
 @section('page-main')
 <main>
-    MAIN
+    <div class="py-5 d-flex justify-content-center align-items-center">
+        CONTENT
+    </div>
 </main>
 @endsection
