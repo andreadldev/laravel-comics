@@ -1,13 +1,15 @@
+<?php 
+    $url = $_SERVER['REQUEST_URI'];
+    $index = substr($url, strpos($url, "?") + 1); 
+?>
 @extends('layouts/main')
 
 @section('page-title')
-Single
+<?php echo $db['comicsList'][$index]['series']?>
 @endsection
 
 @section('page-main')
-<?php 
-    $url = $_SERVER['REQUEST_URI'];
-    $index = substr($url, strpos($url, "?") + 1); ?>
+
 <main id="single">
     <div class="container">
         <section class="row d-flex align-items-center py-5">
