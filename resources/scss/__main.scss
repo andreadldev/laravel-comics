@@ -1,0 +1,59 @@
+section#comics-section {
+    background-color: var(--custom-black);
+    padding-top: 40px;
+    position: relative;
+
+    &:before {
+        content: 'CURRENT SERIES';
+        display: block;
+        background-color: var(--custom-blue);
+        position: absolute;
+        padding: 7px 15px;
+        font-weight: bold;
+        top: -20px;
+        left: 15%;
+    }
+
+    & button {
+        font-weight: 600;
+        color: white;
+        background-color: var(--custom-blue);
+        padding: 0.625rem 3.125rem;
+        margin: auto;
+        margin-bottom: 1.875rem;
+        border: none;
+        cursor: pointer;
+    }
+}
+
+.comics-card {
+    width: calc((100% / 2) - 1.25rem);
+    margin: 0 0.625rem;
+    margin-bottom: 1.875rem;
+    cursor: pointer;
+
+    @media screen and ( min-width: 768px ) {
+        & {
+            width: calc((100% / 3) - 1.25rem);
+        }
+    }
+    @media screen and ( min-width: 992px ) {
+        & {
+            width: calc((100% / 4) - 1.25rem);
+        }
+    }
+    @media screen and ( min-width: 1320px ) {
+        & {
+        width: calc((100% / 6) - 1.25rem);
+        }
+    }
+
+    img {
+        width: 100%;
+        margin-bottom: -50%;
+    }
+    span {
+        display: block;
+        margin-top: 0.3125rem;
+    }
+}

@@ -1,6 +1,4 @@
-<?php 
-include(base_path('config/db.php'));
-?>
+<?php include(base_path('config/db.php'));?>
 
 <!DOCTYPE html>
 <html lang="en">
