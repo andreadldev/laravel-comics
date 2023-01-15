@@ -16,7 +16,6 @@
 
     @yield('page-main')
 
-    @include('partials.pre-footer')
     @include('partials.footer')
 </body>
 </html>

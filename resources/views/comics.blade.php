@@ -8,16 +8,19 @@ Comics
 <main>
     <section id="comics-section" class="text-white">
         <div class="container d-flex flex-wrap">
-            @foreach ($db['comicsList'] as $comic)
+        @for ($x = 0; $x <= count($db['comicsList'])-1; $x++)
             <div class="comics-card">
                 <div class="overflow-hidden">
-                    <img src="<?php echo $comic['thumb'] ?>" alt="<?php echo $comic['series'] ?>">
+                    <a id="link" href="{{ url('comics/single?'.$x) }}">
+                        <img src="<?php echo $db['comicsList'][$x]['thumb']?>" alt="...">
+                    </a>
                 </div>
-                <span class="mt-3"><?php echo $comic['series'] ?></span>
+                <span class="mt-3"><?php echo $db['comicsList'][$x]['series'] ?></span>
             </div>
-            @endforeach
-            <button>LOAD MORE</button>
+            @endfor
+            <button id="pippo">LOAD MORE</button>
         </div>
     </section>
+    @include('partials.pre-footer')
 </main>
 @endsection

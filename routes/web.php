@@ -19,3 +19,8 @@ Route::get('/comics', function () {
     $db = config('db');
     return view('comics', compact("db"));
 });
+
+Route::get('/comics/single', function () {
+    $db = config('db');
+    return view('single', compact("db"));
+});

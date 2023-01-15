@@ -2,6 +2,7 @@
 @import '__header';
 @import '__main';
 @import '__footer';
+@import '__single';
 
 * {
     font-family: "Open Sans", sans-serif;
@@ -9,6 +10,8 @@
 
 :root {
     --custom-blue: #0282f9;
+    --custom-darkblue: #003f5e;
+    --custom-beige: #f6f6f6;
     --custom-gray: #464646;
     --custom-darkgray: #303030;
     --custom-black: #1c1c1c;

@@ -1,9 +1,9 @@
 <?php
 return [    
-    $navItems=[
+    'navItems' => $navItems=[
     'CHARACTERS', 'COMICS', 'MOVIES', 'TV', 'GAMES', 'COLLECTIBLES', 'VIDEOS', 'FANS', 'NEWS', 'SHOP'
     ],
-    $preFooterItems=[
+    'preFooterItems' => $preFooterItems=[
         [
             'img' => 'buy-comics-digital-comics.png',
             'title' => 'DIGITAL COMICS'
@@ -25,7 +25,7 @@ return [
             'title' => 'DC POWER VISA'
         ]
     ],
-    $footerItems=[
+    'footerItems' => $footerItems=[
         [
             'title' => 'DC COMICS',
             'links' => ['Characters', 'Comics', 'Movies', 'TV', 'Games', 'Videos', 'News']

@@ -1,6 +1,6 @@
 <section id="pre-footer">
     <div class="container text-center d-flex flex-column flex-wrap flex-lg-row justify-content-between align-items-start w-25 m-auto text-nowrap text-white py-5 px-lg-5">
-        @foreach ($preFooterItems as $item)
+        @foreach ($db['preFooterItems'] as $item)
         <div class="wrapper">
             <a class="d-flex justify-content-center align-items-center" href="#">
                 <img class="my-3 my-lg-0" src="{{asset('img/').'/'.$item['img']}}" alt="...">
