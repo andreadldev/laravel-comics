@@ -40,7 +40,11 @@
                                 <ul class="list-unstyled">
                                     <li class="text-primary text-nowrap lh-sm">
                                         <a href="#">
-                                            <?php echo $db['comicsList'][$index]['artists'][$x].',&nbsp &nbsp' ?>
+                                            <?php echo $db['comicsList'][$index]['artists'][$x]; 
+                                            if (next($db['comicsList'][$index]['artists'])) {
+                                                echo ',&nbsp';
+                                            }
+                                            ?>
                                         </a>
                                     </li>
                                 </ul>
@@ -57,7 +61,11 @@
                                 <ul class="list-unstyled">
                                     <li class="text-primary text-nowrap lh-sm">
                                         <a href="#">
-                                            <?php echo $db['comicsList'][$index]['writers'][$x].',&nbsp &nbsp' ?>
+                                            <?php echo $db['comicsList'][$index]['writers'][$x]; 
+                                            if (next($db['comicsList'][$index]['writers'])) {
+                                                echo ',&nbsp';
+                                            }
+                                            ?>
                                         </a>
                                     </li>
                                 </ul>
