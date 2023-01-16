@@ -7,7 +7,7 @@
         <div class="collapse navbar-collapse list-inline" id="navbarSupportedContent">
             <ul class="navbar-nav ms-auto fw-bold py-xs-0">
                 @foreach ($navItems as $item)
-                <li class="d-flex justify-content-center mx-lg-2 mx-xl-3 fw-bold <?php if (strtolower($item) == substr($_SERVER['REQUEST_URI'], 1)) echo 'active'?>"> <a href="#">{{$item}}</a> </li>
+                <li class="d-flex justify-content-center mx-lg-2 mx-xl-3 fw-bold <?php if (str_starts_with(substr($_SERVER['REQUEST_URI'], 1), strtolower($item))) echo 'active'?>"> <a href="#">{{$item}}</a> </li>
                 @endforeach
             </ul>
         </div>

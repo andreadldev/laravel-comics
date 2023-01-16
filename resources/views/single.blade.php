@@ -35,7 +35,7 @@
                             <div class="col-6">
                                 <span class="fw-semibold">Art by:</span>
                             </div>
-                            <div class="col-6 d-flex flex-wrap wrapper">
+                            <div class="col-6 d-flex flex-wrap">
                                 @for ($x = 0; $x < count($db['comicsList'][$index]['artists']); $x++)
                                 <ul class="list-unstyled">
                                     <li class="text-primary text-nowrap lh-sm">
