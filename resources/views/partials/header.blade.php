@@ -1,6 +1,8 @@
 <header>
     <nav class="container navbar navbar-expand-lg px-4 py-3 px-sm-0">
-        <img src="{{ Vite::asset('public/img/dc-logo.png') }}" alt="..." />
+        <a href="{{ url('comics') }}">
+            <img src="{{ Vite::asset('public/img/dc-logo.png') }}" alt="..." />
+        </a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
