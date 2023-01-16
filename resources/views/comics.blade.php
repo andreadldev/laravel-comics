@@ -8,7 +8,7 @@ Comics
 <main>
     <section id="comics-section" class="text-white">
         <div class="container d-flex flex-wrap">
-        @for ($x = 0; $x <= count($db['comicsList'])-1; $x++)
+        @for ($x = 0; $x < count($db['comicsList']); $x++)
             <div class="comics-card">
                 <div class="overflow-hidden">
                     <a id="link" href="{{ url('comics/single?'.$x) }}">

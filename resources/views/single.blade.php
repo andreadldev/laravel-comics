@@ -36,7 +36,7 @@
                                 <span class="fw-semibold">Art by:</span>
                             </div>
                             <div class="col-6 d-flex flex-wrap wrapper">
-                                @for ($x = 0; $x <= count($db['comicsList'][$index]['artists'])-1; $x++)
+                                @for ($x = 0; $x < count($db['comicsList'][$index]['artists']); $x++)
                                 <ul class="list-unstyled">
                                     <li class="text-primary text-nowrap lh-sm">
                                         <a href="#">
@@ -53,7 +53,7 @@
                                 <span class="fw-semibold">Written by:</span>
                             </div>
                             <div class="col-6 d-flex flex-wrap wrapper">
-                                @for ($x = 0; $x <= count($db['comicsList'][$index]['artists'])-1; $x++)
+                                @for ($x = 0; $x < count($db['comicsList'][$index]['writers']); $x++)
                                 <ul class="list-unstyled">
                                     <li class="text-primary text-nowrap lh-sm">
                                         <a href="#">
