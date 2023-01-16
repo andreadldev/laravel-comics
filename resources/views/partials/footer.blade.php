@@ -14,7 +14,7 @@
                     @endfor
                 </div>
                 @for ($i = 2; $i <= 3; $i++)
-                <div class="text-light me-5 text-nowrap">
+                <div class="text-light me-4 text-nowrap">
                     <ul class="list-unstyled">
                         <li><h4 class="ps-1"><?php echo $footerItems[$i]['title'] ?></h4></li>
                         <?php foreach ($footerItems[$i]['links'] as $link) 
