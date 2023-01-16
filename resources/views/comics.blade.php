@@ -18,7 +18,7 @@ Comics
                 <span class="mt-3"><?php echo $db['comicsList'][$x]['series'] ?></span>
             </div>
             @endfor
-            <button id="pippo">LOAD MORE</button>
+            <button>LOAD MORE</button>
         </div>
     </section>
     @include('partials.pre-footer')
